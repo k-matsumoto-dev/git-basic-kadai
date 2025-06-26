@@ -1,0 +1,14 @@
+PS C:\terakoya_kadai\git_challenge> git init
+Initialized empty Git repository in C:/terakoya_kadai/git_challenge/.git/
+PS C:\terakoya_kadai\git_challenge> git add hello_world.txt
+PS C:\terakoya_kadai\git_challenge> git commit -m "一回目のコミット"
+[main (root-commit) 2324e29] 荳蝗樒岼縺ｮ繧ｳ繝溘ャ繝
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\terakoya_kadai\git_challenge> git add hello_world.txt
+PS C:\terakoya_kadai\git_challenge> git commit -m "二回目のコミット"
+[main be88a25] 莠悟屓逶ｮ縺ｮ繧ｳ繝溘ャ繝
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\terakoya_kadai\git_challenge> git log --oneline
+be88a25 (HEAD -> main) 二回目のコミット
+2324e29 一回目のコミット
